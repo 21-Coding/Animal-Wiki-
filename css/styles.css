@@ -1,3 +1,15 @@
 #menu {
   display: none;
 }
+
+.jumbotron {
+  background: url('https://media.giphy.com/media/Ok4HaWlYrewuY/giphy.gif');
+  width:250px;
+  height: 250px;
+  align: center;
+
+}
+
+body {
+  background-color: beige; 
+}

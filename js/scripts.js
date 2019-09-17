@@ -10,17 +10,24 @@ $(document).ready(function(){
 
     // User Interface
 
-
-
     if (name === "dogs") {
       $("#menu").show();
       $(".bigCats, .turtles").hide()
-      console.log("no");
-}
-//   }  else if (name (!dogs)
-//       $("#").show();
-//       console.log(hey);
-// }
+      $(".dogs").show()
+
+    } else if (name === "bigCats") {
+      $("#menu").show();
+      $(".dogs, .turtles").hide()
+      $(".bigCats").show()
+
+    } else if (name === "turtles") {
+        $("#menu").show();
+        $(".dogs, .bigCats").hide()
+        $(".turtles").show()
+
+
+    }
+
 
   });
 });
